@@ -1,0 +1,129 @@
+html{
+  font-family: 'Helvetica', monospace;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style:none;
+}
+
+.error {
+  color: red;
+}
+
+.list_item {
+  grid-template-columns: 1fr 1fr;
+  min-height: 220px;
+  display: block;
+  text-align: left;
+}
+
+.list_item img {
+  width: 150px;
+  height: 200px;
+  margin: 0 15px 0 15px;
+  display: block;
+  float: left;
+}
+
+.list_item .item_info {
+  display: block;
+  align-self: end;   
+}
+
+.list_item .item_info h3 {
+  color: darkred;
+  text-decoration: underline;
+}
+
+.search_series {
+  height: 30px;
+  size: inherit;
+}
+
+.series {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  background: #eee;
+  border: 1px solid #555;
+  grid-gap: .8em;
+  padding: 1.2em;
+  max-width: 500px;
+}
+
+.series label {
+  grid-column: 1 / 2;
+}
+
+.series input, button, p {
+  grid-column: 2 / 3;
+}
+
+.series textarea {
+  resize: none;
+  height: 150px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #ccc;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 10px 20px;
+}
+
+#deleteButton {
+  background-color: darkred;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #111;
+}
+
+.main{
+  text-align: center;
+}
+
+.main ul {
+  max-width: 700px;
+  margin: 0 auto; 
+}
+
+.main li {
+  border: 1px solid #555;
+  margin: 10px;
+  padding: 5px;
+}
+
+.main li form {
+  margin: 10px;
+}
+
+
